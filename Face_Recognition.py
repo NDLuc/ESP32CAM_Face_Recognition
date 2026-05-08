@@ -3,7 +3,7 @@ import numpy as np
 import requests
 from ultralytics import YOLO
 
-url = "http://192.168.1.76/capture"
+
 
 # Load YOLOv8-face model
 model = YOLO("yolov8n-face-lindevs.pt")
